@@ -1,0 +1,77 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.left{
+    flex: 1;
+    margin-left: 10%;
+}
+.right{
+    flex: 1;
+    margin-left: 10px;
+}
+.right a{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.container{
+    margin-top: 70px;
+}
+.product-img{
+    background-image: url("https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/13036796/2021/1/6/bb6d18c9-39c1-4632-bc4a-f452606965ef1609906124788-WROGN-Men-Silver-Toned-Analogue-Watch-WRG00048A-802160990612-1.jpg");
+    height: 380px;
+    width: 280px;
+    background-size: contain;
+    margin-right: 5%;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc{
+    margin-top: 0px;
+    position: relative;
+    top: -20px;
+
+}
+.desc1{
+    margin-top: 0px;
+    position: relative;
+    top: -30px;
+
+}
+.table{
+    border: 1px solid black;
+}
+.buy-btn{
+    border: 1px solid black;
+    margin-top: 30px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.recommend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+.box2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.img{
+    height: 250px;
+    width: 200px;
+    background-size: cover;
+}
